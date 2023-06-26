@@ -1,0 +1,23 @@
+<html>
+    <head>
+    </head>
+    <style>
+    
+        body{
+            background-color: chartreuse;
+        
+            text-align: center;
+            margin-top: 200px;
+        }
+    </style>
+    <body>
+        <h1 id="Digital"></h1>
+
+    </body>
+    <script>
+        setInterval(() => {
+            
+            document.getElementById("Digital").innerHTML= new Date().toLocaleTimeString()
+        },1000)
+    </script>    
+</html>
